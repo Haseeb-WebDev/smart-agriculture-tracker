@@ -48,20 +48,20 @@ function LoginPage({ setIsLoggedIn, setUserRole }) {
               id="username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              placeholder="Enter your name"
+              placeholder="Enter your name (اپنا نام درج کریں)"
               required
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="role">Login As</label>
+            <label htmlFor="role">Login As(لاگ ان)</label>
             <select
               id="role"
               value={role}
               onChange={(e) => setRole(e.target.value)}
               required
             >
-              <option value="farmer">Farmer</option>
+              <option value="farmer">Farmer (کسان)</option>
               <option value="admin">Admin</option>
             </select>
           </div>
